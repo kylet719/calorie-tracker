@@ -1,4 +1,4 @@
-# Calorie Tracker 210 Project
+# Calorie Tracker
 
 
 My project for this term will be a **calorie tracker**. My goal for this project is to track the calories you are eating
