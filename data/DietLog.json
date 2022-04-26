@@ -1,0 +1,52 @@
+{"Log": [
+    {
+        "date": "2021-12-12",
+        "ListOfFood": [
+            {
+                "Description": "Smoothie",
+                "FoodOrBeverage": "BEVERAGE",
+                "Calories": 500,
+                "MealTime": "DINNER"
+            },
+            {
+                "Description": "Bacon and Eggs",
+                "FoodOrBeverage": "FOOD",
+                "Calories": 650,
+                "MealTime": "BREAKFAST"
+            },
+            {
+                "Description": "Steak",
+                "FoodOrBeverage": "FOOD",
+                "Calories": 1000,
+                "MealTime": "LUNCH"
+            },
+            {
+                "Description": "Fried Rice",
+                "FoodOrBeverage": "FOOD",
+                "Calories": 750,
+                "MealTime": "DINNER"
+            },
+            {
+                "Description": "Chips",
+                "FoodOrBeverage": "FOOD",
+                "Calories": 350,
+                "MealTime": "SNACK"
+            },
+            {
+                "Description": "Chips",
+                "FoodOrBeverage": "FOOD",
+                "Calories": 350,
+                "MealTime": "SNACK"
+            }
+        ]
+    },
+    {
+        "date": "2021-12-13",
+        "ListOfFood": [{
+            "Description": "Breakfast Smoothie",
+            "FoodOrBeverage": "BEVERAGE",
+            "Calories": 600,
+            "MealTime": "BREAKFAST"
+        }]
+    }
+]}

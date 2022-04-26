@@ -1,0 +1,28 @@
+{"Log": [
+    {
+        "date": "2020-01-01",
+        "ListOfFood": [
+            {
+                "Description": "Steak",
+                "FoodOrBeverage": "FOOD",
+                "Calories": 500,
+                "MealTime": "SNACK"
+            },
+            {
+                "Description": "Smoothie",
+                "FoodOrBeverage": "BEVERAGE",
+                "Calories": 250,
+                "MealTime": "DINNER"
+            }
+        ]
+    },
+    {
+        "date": "2020-01-02",
+        "ListOfFood": [{
+            "Description": "Fries",
+            "FoodOrBeverage": "FOOD",
+            "Calories": 750,
+            "MealTime": "SNACK"
+        }]
+    }
+]}
