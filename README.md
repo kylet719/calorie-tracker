@@ -12,7 +12,7 @@ This project is of interest to me because I always struggled with my weight, whe
 much. As such, I believe having a meal tracker that not only tracks but analysis your diet will be a huge asset.
 
 
-## User Stories
+## Usage
 
 - As a user, I want to be able to add items to specific days
 - As a user, I want to be able to add days to my overall log
@@ -22,4 +22,9 @@ much. As such, I believe having a meal tracker that not only tracks but analysis
 - As a user, I want to be able to see my highest calorie day, either for all days or a range
 - As a user, I want to be able to save my DietLog to a file
 - As a user, I want to be able to load my DietLog from a file
+
+## Installation
+
+Download project repository and run the Main Class.
+
 

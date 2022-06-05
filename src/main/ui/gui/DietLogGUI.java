@@ -308,11 +308,6 @@ public class DietLogGUI extends JPanel implements ListSelectionListener {
 
             pieHelper(dinDinPie,dietTracker.pieDataAllDays());
 
-//            pie.addSeries("Gold", 24);
-//            pie.addSeries("Silver", 21);
-//            pie.addSeries("Platinum", 39);
-//            pie.addSeries("Copper", 17);
-//            pie.addSeries("Zinc", 40);
 
             JPanel pieChartPanel = new XChartPanel<PieChart>(dinDinPie);
             JPanel stuffCrustPie = new XChartPanel<PieChart>(foodDrinkPie);
@@ -322,8 +317,7 @@ public class DietLogGUI extends JPanel implements ListSelectionListener {
             double[] dataX = new double[]{0.0, 1.0, 2.0};
             double[] dataY = new double[]{2.0, 1.0, 0.0};
 
-            newFrame.setLayout(new GridLayout(2,2));
-            newFrame.add(message);
+            newFrame.setLayout(new GridLayout(1,2));
             newFrame.add(pieChartPanel);
             newFrame.add(stuffCrustPie);
             newFrame.pack();
@@ -360,15 +354,23 @@ public class DietLogGUI extends JPanel implements ListSelectionListener {
                     + averageCal + " calories.", "Results", JOptionPane.INFORMATION_MESSAGE);
 
             PieChart pie = new PieChartBuilder().width(800).height(600).title("Meal Distribution").build();
+            PieChart foodDrinkPie =
+                    new PieChartBuilder().width(800).height(600).title("Food/Drink Distribution").build();
+            foodDrinkPie.addSeries("Food",250);
+            foodDrinkPie.addSeries("Drink",750);
 
             pieHelper(pie,dietTracker.pieDataRangeDays(f,t));
 
 
+
             JPanel pieChartPanel = new XChartPanel<PieChart>(pie);
+            JPanel stuffCrustPie = new XChartPanel<PieChart>(foodDrinkPie);
 
             JFrame newFrame = new JFrame("Meal Distribution");
 
+            newFrame.setLayout(new GridLayout(1,2));
             newFrame.add(pieChartPanel);
+            newFrame.add(stuffCrustPie);
             newFrame.pack();
             newFrame.setVisible(true);
         }
